@@ -1,0 +1,16 @@
+﻿@model IEnumerable<WebShop.Domain.Customer>
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<a asp-controller="Home" asp-action="CreateBag">Create Bag</a>
+
+<ul>
+    @foreach(var item in Model)
+    {
+        <li>@item.Name</li>
+    }
+    </ul>
+

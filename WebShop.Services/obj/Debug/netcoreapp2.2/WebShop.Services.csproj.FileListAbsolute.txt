@@ -1,0 +1,16 @@
+C:\Users\Tom\source\repos\WebShop\WebShop.Services\bin\Debug\netcoreapp2.2\WebShop.Services.deps.json
+C:\Users\Tom\source\repos\WebShop\WebShop.Services\bin\Debug\netcoreapp2.2\WebShop.Services.dll
+C:\Users\Tom\source\repos\WebShop\WebShop.Services\bin\Debug\netcoreapp2.2\WebShop.Services.pdb
+C:\Users\Tom\source\repos\WebShop\WebShop.Services\bin\Debug\netcoreapp2.2\WebShop.Data.dll
+C:\Users\Tom\source\repos\WebShop\WebShop.Services\bin\Debug\netcoreapp2.2\WebShop.Domain.dll
+C:\Users\Tom\source\repos\WebShop\WebShop.Services\bin\Debug\netcoreapp2.2\WebShop.Data.pdb
+C:\Users\Tom\source\repos\WebShop\WebShop.Services\bin\Debug\netcoreapp2.2\WebShop.Domain.pdb
+C:\Users\Tom\source\repos\WebShop\WebShop.Services\obj\Debug\netcoreapp2.2\WebShop.Services.csprojAssemblyReference.cache
+C:\Users\Tom\source\repos\WebShop\WebShop.Services\obj\Debug\netcoreapp2.2\WebShop.Services.csproj.CoreCompileInputs.cache
+C:\Users\Tom\source\repos\WebShop\WebShop.Services\obj\Debug\netcoreapp2.2\WebShop.Services.AssemblyInfoInputs.cache
+C:\Users\Tom\source\repos\WebShop\WebShop.Services\obj\Debug\netcoreapp2.2\WebShop.Services.AssemblyInfo.cs
+C:\Users\Tom\source\repos\WebShop\WebShop.Services\obj\Debug\netcoreapp2.2\WebShop.Services.csproj.CopyComplete
+C:\Users\Tom\source\repos\WebShop\WebShop.Services\obj\Debug\netcoreapp2.2\WebShop.Services.dll
+C:\Users\Tom\source\repos\WebShop\WebShop.Services\obj\Debug\netcoreapp2.2\WebShop.Services.pdb
+C:\Users\Tom\source\repos\WebShop\WebShop.Services\bin\Debug\netcoreapp2.2\WebShop.ViewModel.dll
+C:\Users\Tom\source\repos\WebShop\WebShop.Services\bin\Debug\netcoreapp2.2\WebShop.ViewModel.pdb

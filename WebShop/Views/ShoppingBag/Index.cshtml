@@ -1,0 +1,111 @@
+﻿@model WebShop.Domain.ShoppingBag
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Shopping Bag</h1>
+
+<style>
+
+    .flex{
+        display:flex;
+        justify-content:space-between;
+    }
+
+    .flex section:nth-child(2){
+      
+    }
+
+    .fix{
+        position:fixed;
+        right:10px;
+    }
+</style>
+
+@{
+    var tmp = ViewData["bag"];
+}
+<h3>Orders</h3>
+
+<span class="new badge red">@Model.ShoppingItems.Count</span>
+
+<div class="flex">
+    <section>
+        @{int total = 0; }
+
+        @foreach (var item in Model.ShoppingItems)
+        {
+
+
+            <form asp-action="test" method="post">
+                <input type="text" name="Quantity" value="@item.Quantity" />
+                <input type="hidden" name="BagId" value="@Model.Id" />
+                <input type="hidden" name="ShoppingItemId" value="@item.Id" />
+                <br />
+                @item.Product.Name <br />
+                @item.Product.Price<br />
+                <img src="~/images/@item.Product.Url" />
+
+                <br />
+                @{
+                    var p = (@item.Quantity * @item.Product.Price);
+                    total += p;
+                }
+                price = (@item.Quantity * @item.Product.Price) = @p
+
+                <input type="submit" />
+            </form>
+        }  
+    </section>
+
+    <section >
+
+        <div class="col s12 m7">
+            <h2 class="header">Price Calculation</h2>
+            <div class="card horizontal">
+                <div class="card-image">
+                    <img src="https://lorempixel.com/100/190/nature/6">
+                </div>
+                <div class="card-stacked">
+                    <div class="card-content">
+                        <p>
+                            <ul class="collection">
+
+                                @foreach (var item in Model.ShoppingItems)
+                                {
+                                  
+
+                                    <li class="collection-item avatar">
+                                        <img src="~/images/@item.Product.Url" alt="" class="circle">
+                                        <span class="title">Price</span>
+<p>
+                                @item.Product.Name :<br>
+                                @item.Product.Price
+                            </p>
+                            <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
+                            </li>
+
+
+
+                            }
+                            </ul>
+
+
+                            Total Price = @total
+
+                    <!----> <a class="btn-floating btn-large waves-effect waves-light red"><i class="material-icons">BOOK NOW!</i></a>
+
+                    </p>
+                    </div>
+                    <div class="card-action">
+                         <a href="#">BOOK</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+      
+    </section>
+</div>
+
+

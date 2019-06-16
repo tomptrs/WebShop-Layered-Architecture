@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\WebShop.Data\WebShop.Data.csproj" />
+    <ProjectReference Include="..\WebShop.Domain\WebShop.Domain.csproj" />
+    <ProjectReference Include="..\WebShop.ViewModel\WebShop.ViewModel.csproj" />
+  </ItemGroup>
+
+</Project>

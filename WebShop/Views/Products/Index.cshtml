@@ -1,0 +1,62 @@
+﻿@model WebShop.ViewModel.ProductListViewModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+<style>
+
+
+    .flex{
+        display:flex;
+       justify-content:space-around;
+    }
+</style>
+
+<h1>Index</h1>
+
+
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+
+<div class="flex">
+    @foreach (var item in Model.Products)
+    {
+
+
+        <div class="row">
+            <div class="col s12 m6">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="~/images/@item.Url" />
+                        <span class="card-title">@item.Name</span>
+                        <a asp-controller="ShoppingBag" asp-action="AddToBag" asp-route-id="@item.Id" class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">add</i></a>
+                    </div>
+                    <div class="card-content">
+                        <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Name)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Price)
+                    </td>
+                    <td>
+                        <img src="~/images/@item.Url" />
+                    </td>
+                    <td>
+                        <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                        <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                        <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                    </td>
+                </tr>-->
+    }
+
+</div>
