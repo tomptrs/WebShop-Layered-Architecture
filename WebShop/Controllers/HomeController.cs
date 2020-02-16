@@ -18,7 +18,7 @@ namespace WebShop.Controllers
             repoShoppingBag = _sb;
         }
         /*
-         * My Index
+         * My Index 2
          */
         public IActionResult Index()
         {
