@@ -17,6 +17,9 @@ namespace WebShop.Controllers
             repo = _repo;
             repoShoppingBag = _sb;
         }
+        /*
+         * My Index
+         */
         public IActionResult Index()
         {
             var items = repo.GetAll();

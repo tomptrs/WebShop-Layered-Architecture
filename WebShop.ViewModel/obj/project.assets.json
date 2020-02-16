@@ -708,11 +708,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Tom\\source\\repos\\WebShop\\WebShop.ViewModel\\WebShop.ViewModel.csproj",
+      "projectUniqueName": "C:\\Users\\Tom\\Downloads\\WebShop-Layered-Architecture\\WebShop.ViewModel\\WebShop.ViewModel.csproj",
       "projectName": "WebShop.ViewModel",
-      "projectPath": "C:\\Users\\Tom\\source\\repos\\WebShop\\WebShop.ViewModel\\WebShop.ViewModel.csproj",
+      "projectPath": "C:\\Users\\Tom\\Downloads\\WebShop-Layered-Architecture\\WebShop.ViewModel\\WebShop.ViewModel.csproj",
       "packagesPath": "C:\\Users\\Tom\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Tom\\source\\repos\\WebShop\\WebShop.ViewModel\\obj\\",
+      "outputPath": "C:\\Users\\Tom\\Downloads\\WebShop-Layered-Architecture\\WebShop.ViewModel\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -731,8 +731,8 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "C:\\Users\\Tom\\source\\repos\\WebShop\\WebShop.Domain\\WebShop.Domain.csproj": {
-              "projectPath": "C:\\Users\\Tom\\source\\repos\\WebShop\\WebShop.Domain\\WebShop.Domain.csproj"
+            "C:\\Users\\Tom\\Downloads\\WebShop-Layered-Architecture\\WebShop.Domain\\WebShop.Domain.csproj": {
+              "projectPath": "C:\\Users\\Tom\\Downloads\\WebShop-Layered-Architecture\\WebShop.Domain\\WebShop.Domain.csproj"
             }
           }
         }

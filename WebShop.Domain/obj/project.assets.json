@@ -692,11 +692,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Tom\\source\\repos\\WebShop\\WebShop.Domain\\WebShop.Domain.csproj",
+      "projectUniqueName": "C:\\Users\\Tom\\Downloads\\WebShop-Layered-Architecture\\WebShop.Domain\\WebShop.Domain.csproj",
       "projectName": "WebShop.Domain",
-      "projectPath": "C:\\Users\\Tom\\source\\repos\\WebShop\\WebShop.Domain\\WebShop.Domain.csproj",
+      "projectPath": "C:\\Users\\Tom\\Downloads\\WebShop-Layered-Architecture\\WebShop.Domain\\WebShop.Domain.csproj",
       "packagesPath": "C:\\Users\\Tom\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Tom\\source\\repos\\WebShop\\WebShop.Domain\\obj\\",
+      "outputPath": "C:\\Users\\Tom\\Downloads\\WebShop-Layered-Architecture\\WebShop.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

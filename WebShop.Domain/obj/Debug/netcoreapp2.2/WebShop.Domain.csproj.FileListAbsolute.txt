@@ -6,3 +6,12 @@ C:\Users\Tom\source\repos\WebShop\WebShop.Domain\obj\Debug\netcoreapp2.2\WebShop
 C:\Users\Tom\source\repos\WebShop\WebShop.Domain\obj\Debug\netcoreapp2.2\WebShop.Domain.AssemblyInfo.cs
 C:\Users\Tom\source\repos\WebShop\WebShop.Domain\obj\Debug\netcoreapp2.2\WebShop.Domain.dll
 C:\Users\Tom\source\repos\WebShop\WebShop.Domain\obj\Debug\netcoreapp2.2\WebShop.Domain.pdb
+C:\Users\Tom\Downloads\WebShop-Layered-Architecture\WebShop.Domain\bin\Debug\netcoreapp2.2\WebShop.Domain.deps.json
+C:\Users\Tom\Downloads\WebShop-Layered-Architecture\WebShop.Domain\bin\Debug\netcoreapp2.2\WebShop.Domain.dll
+C:\Users\Tom\Downloads\WebShop-Layered-Architecture\WebShop.Domain\bin\Debug\netcoreapp2.2\WebShop.Domain.pdb
+C:\Users\Tom\Downloads\WebShop-Layered-Architecture\WebShop.Domain\obj\Debug\netcoreapp2.2\WebShop.Domain.csprojAssemblyReference.cache
+C:\Users\Tom\Downloads\WebShop-Layered-Architecture\WebShop.Domain\obj\Debug\netcoreapp2.2\WebShop.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Tom\Downloads\WebShop-Layered-Architecture\WebShop.Domain\obj\Debug\netcoreapp2.2\WebShop.Domain.AssemblyInfoInputs.cache
+C:\Users\Tom\Downloads\WebShop-Layered-Architecture\WebShop.Domain\obj\Debug\netcoreapp2.2\WebShop.Domain.AssemblyInfo.cs
+C:\Users\Tom\Downloads\WebShop-Layered-Architecture\WebShop.Domain\obj\Debug\netcoreapp2.2\WebShop.Domain.dll
+C:\Users\Tom\Downloads\WebShop-Layered-Architecture\WebShop.Domain\obj\Debug\netcoreapp2.2\WebShop.Domain.pdb
